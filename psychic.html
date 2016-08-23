@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+ <html>
+ 
+ <head>
+     <meta charset="utf-8">
+     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+     <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+     <script type="text/javascript" src="assets/javascript/game.js"></script>
+     <title>Pyschic Game</title>
+ </head>
+ 
+ <body>
+     <header>
+         <h1>Pyschic Game</h1>
+     </header>
+     <br>
+     <div id="game">
+         <p>Hello! Guess which letter I am thinking of...</p>
+     </div>
+     <div class="container">
+         <div>
+             <h2>Press any letter to start playing...</h2>
+             <br>
+             <p id="win">Number Right: wins</p>
+             <p id="losses">Number Wrong: losses</p>
+             <p id="yourGuesses">Number of Guesses: </p>
+             <br>
+             <p id="guessesLeft"> Guesses Left= 10</p>
+         </div>
+         <br>
+         <input type="button" class="button" value="Play Again!" onClick="window.location.reload()">
+     </div>
+ </body>
+ </html>
